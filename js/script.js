@@ -65,18 +65,3 @@ document.getElementById("letsTalk").addEventListener("click", function() {
     window.location.href = "#contact";
 });
 
-// Function to handle social media links
-// Facebook ke liye function
-document.getElementById("facebook").addEventListener("click", function() {
-    window.open("https://www.facebook.com/bilalsheikh968", "_blank"); // apna username yahan lagayein
-});
-
-// Instagram ke liye function
-document.getElementById("instagram").addEventListener("click", function() {
-    window.open("https://www.instagram.com/itx_bilal_sheikh", "_blank"); // apna Instagram username lagayein
-});
-
-// LinkedIn ke liye function
-document.getElementById("linkedin").addEventListener("click", function() {
-    window.open("https://www.linkedin.com/in/bilal-sheikh01", "_blank"); // apna LinkedIn username lagayein
-});
